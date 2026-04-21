@@ -1,28 +1,47 @@
 # 💳 AlkeWallet — Evaluación Módulo 3
 
-Extensión del caso AlkeWallet orientada a la **persistencia relacional**, con un script SQL para modelar usuarios, cuentas y transacciones.
+Evolución de AlkeWallet centrada en la **persistencia relacional**, con un script SQL que modela usuarios, cuentas y transacciones para una billetera digital.
 
-![SQL](https://img.shields.io/badge/SQL-Database-orange?logo=mysql)
+![SQL](https://img.shields.io/badge/SQL-Database-orange?logo=mysql) ![Java](https://img.shields.io/badge/Java-model-lightgrey?logo=openjdk)
 
-## Descripción
+---
 
-Este repositorio se concentra en el diseño de la capa de datos para una billetera digital. El archivo `alkewallet.sql` define la base necesaria para administrar operaciones financieras, historial de movimientos y relaciones entre entidades principales.
+## 📌 Objetivo
 
-## Objetivo
+Extender el caso AlkeWallet hacia una base de datos relacional, dejando una estructura inicial para operaciones financieras y consultas de negocio.
 
-Trasladar la lógica del caso AlkeWallet hacia un modelo relacional que sirva como base para consultas y operaciones persistentes.
+## 🧩 Qué incluye
 
-## Uso
+- Script `alkewallet.sql` con estructura de base de datos.
+- Documento de evaluación asociado.
+- Base para usuarios, cuentas y transacciones.
+
+## 📁 Estructura
 
 ```bash
+Alkewallet-EvaluacionModulo3/
+├── alkewallet.sql
+├── CarloGonzalezEvaluacionM3.docx
+├── README.md
+└── LICENSE
+```
+
+## ▶️ Uso
+
+```bash
+git clone git@github.com:Carl0gonzalez/Alkewallet-EvaluacionModulo3.git
+cd Alkewallet-EvaluacionModulo3
 # MySQL
 mysql -u root -p < alkewallet.sql
-
-# PostgreSQL
+# o PostgreSQL
 psql -U postgres -f alkewallet.sql
 ```
 
-## Autor
+## 💡 Valor del proyecto
+
+Sirve como ejercicio de modelado relacional, persistencia y preparación de estructuras de datos para una aplicación financiera.
+
+## 👤 Autor
 
 **Carlo González**
 
